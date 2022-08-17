@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../general.css';
+import './navbar.css';
 import {
   FaUserAstronaut,
   FaAddressCard,

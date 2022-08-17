@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    font-family:'Bangers';
+    margin: 0 0 0 3rem;
+    font-size: 45px;
+
+}
+
+h3{
+    font-family: 'RockSalt';
+    font-size: small;
+    
+}
+
+.base {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #282c34;
+    margin: right 100px;
+    /* min-height: 100vh; */
+
+}
+.nav-container {
+    min-height: 4rem;
+    /* width:950px; */
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    margin-right: 3rem;
+
+}
+
+.nav-container .hexagonArea{
+    display:flex;
+}
+
+.nav-container .hexagonArea.last{
+    transform:translateY(-20px)
+}
+
+.nav-container .hexagonArea .hexagon{
+    position:relative;
+    width:100px;
+    height: 115px;
+    margin: 0 6px;
+    clip-path:polygon(0 25%,50% 0,100% 25%,100% 75%,50% 100%,0 75%);
+    background-color: aqua;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    border-width: 150px;
+    border:black
+}
+.nav-container .hexagonArea  :hover{
+    background-color: antiquewhite;
+}
+
+#selected{
+    background-color: blue;
+}

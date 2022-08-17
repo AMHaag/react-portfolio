@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.aboutContainer{
+    min-height: 75vh;
+    display: flex;
+}
+
+.aboutLeft{
+    align-self: center;
+}
+
+.aboutRight{
+    align-self:center;
+}
+
+#profilePicture{
+    margin: 0 0 0 3rem;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+#profilePicture:hover{
+    filter: grayscale(.6);
+}
