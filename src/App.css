@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Bangers;
+  src: url('./fonts/Bangers-Regular.ttf');
+  font-weight:lighter;
+}
+@font-face {
+  font-family: RockSalt;
+  src: url('./fonts/RockSalt-Regular.ttf');
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +46,6 @@
     transform: rotate(360deg);
   }
 }
+
+/* end of default styling */
+
