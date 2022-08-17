@@ -2,9 +2,9 @@
 import './App.css';
 import Navbar from './components/navbar';
 import Stage from './components/stage';
-// import AboutMe from './components/content/AboutMe';
 
 function App() {
+  document.title=`Aaron Haag's portfolio`
   return (
     <div className='App'>
       <nav>

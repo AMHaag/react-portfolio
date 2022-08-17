@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* About Me Styling */
 .aboutContainer{
     min-height: 75vh;
     display: flex;
@@ -26,4 +27,92 @@
 
 #profilePicture:hover{
     filter: grayscale(.6);
+}
+
+/* Projects Page Styling */
+
+.projectBox{
+    display:flex;
+    flex-direction: column;
+    margin:2rem;
+}
+
+.projectRowOne{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.projectRowTwo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        transform: translateY(-48px);
+}
+
+.projectRowThree {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: translateY(-96px);
+}
+
+.hexagon{
+        position: relative;
+            width: 200px;
+            height: 230px;
+            margin: 0 6px;
+            clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-width: 150px;
+            /* border: black;
+            border: 1px solid black; */
+}
+
+.hexagon:hover{
+    filter:grayscale()
+}
+
+.project{
+    background: aqua;
+}
+
+.titleTile{
+    font-family: 'RockSalt';
+    background-color: bisque;
+}
+
+.p1{
+    background-image: url('../../images/project1.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+
+.p2 {
+    background-image: url('../../images/project1.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+.p3 {
+    background-image: url('../../images/project1.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+.p4 {
+    background-image: url('../../images/project1.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+.p5 {
+    background-image: url('../../images/project1.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+.p6 {
+    background-image: url('../../images/project1.jpg');
+    background-position: center;
+    background-size: 100%;
 }
