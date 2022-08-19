@@ -9,21 +9,26 @@ a{
     color:black;
     text-decoration: none;
 }
+
+h2{
+    margin: 7px;
+}
 .boxContainer{
     min-height: 75vh;
     display: flex;
+    /* flex-wrap: wrap; */
 }
 
 .boxLeft{
     align-self: center;
-    border:5px solid green;
+    /* border:5px solid green; */
 }
 
 .boxRight{
-    border:5px solid orange;
+    /* border:5px solid orange; */
     justify-content:space-around;
     align-content: center;
-    align-self: stretch;
+    align-self: center;
     width: 100vw;
 
 }
@@ -37,95 +42,28 @@ a{
     align-self: center;
 }
 
+@media only screen and (max-width: 1000px) {
+    #profilePicture{
+        height:200px;
+        width:200px;
+        margin:0;
+    }
+    .boxContainer{
+        min-height: 0px;
+        flex-wrap: wrap;
+    }
+    .boxLeft{
+        width:100vw;
+
+    }
+        .download-link{
+            font-size: 2rem !important;
+            
+        }
+}
+
 #profilePicture:hover{
     filter: grayscale(.6);
-}
-
-/* Projects Page Styling */
-
-.projectBox{
-    display:flex;
-    flex-direction: column;
-    margin:2rem;
-}
-
-.projectRowOne{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.projectRowTwo{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        transform: translateY(-48px);
-}
-
-.projectRowThree {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    transform: translateY(-96px);
-}
-
-.hexagon{
-        position: relative;
-            width: 200px;
-            height: 230px;
-            margin: 0 6px;
-            clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            border-width: 150px;
-            /* border: black;
-            border: 1px solid black; */
-}
-
-.hexagon:hover{
-    filter:grayscale()
-}
-
-.project{
-    background: aqua;
-}
-
-.titleTile{
-    font-family: 'RockSalt';
-    background-color: bisque;
-}
-
-.p1{
-    background-image: url('../../images/project1.jpg');
-    background-position: center;
-    background-size: 100%;
-}
-.p2 {
-    background-image: url('../../images/project1.jpg');
-    background-position: center;
-    background-size: 100%;
-}
-.p3 {
-    background-image: url('../../images/project1.jpg');
-    background-position: center;
-    background-size: 100%;
-}
-.p4 {
-    background-image: url('../../images/project1.jpg');
-    background-position: center;
-    background-size: 100%;
-}
-.p5 {
-    background-image: url('../../images/project1.jpg');
-    background-position: center;
-    background-size: 100%;
-}
-.p6 {
-    background-image: url('../../images/project1.jpg');
-    background-position: center;
-    background-size: 100%;
 }
 
 /* Resume Styling */
@@ -134,10 +72,8 @@ a{
     display:flex;
 flex-direction: column;
     align-content:center;
-    border:5px solid black;
-    /* justify-content:space-around; */
-    
-
+    justify-content: center;
+    /* border:5px solid black; */
 }
 
 .headline{
@@ -147,9 +83,61 @@ flex-direction: column;
 .download-container{
     border: 1px solid brown;
     justify-self: flex-end;
+    display: inline;
 }
 
 .download-link{
     font-size: 3rem;
+    color: darkblue;
     font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
 }
+
+
+/* Contact Me Styling */
+
+button {
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.25rem 1rem 0rem 1rem;
+    border-radius: .5rem;
+    border: 1px solid gray;
+    outline: none;
+    cursor: pointer;
+    margin: 0 1px;
+    background-color: aqua;
+}
+button:hover {
+    opacity: .8;
+}
+
+button[disabled] {
+    cursor: default;
+    opacity: .8;
+}
+input {
+    font-size: 1rem;
+    padding: 0.25rem;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 3px;
+    transition: box-shadow 0.2s;
+}
+input:focus {
+    border: 1px solid darkgray;
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+textarea {
+    width: 600px;
+    height: 120px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+}
+
+#email-input{
+    padding: .5em;
+}
+
+/* Projects Page Styling */
+

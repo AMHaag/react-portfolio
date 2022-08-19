@@ -11,6 +11,33 @@ h1{
 
 }
 
+@media only screen and (max-width: 1000px) {
+    h1{
+        font-size:4rem;
+        margin:0 0 0 0;
+        width:100vw;
+        
+    }
+    .base{
+        margin:0 0 0 0;
+        justify-content: center;
+        align-content: center;
+    }
+    .nav-container{
+        margin: 0 0 0 0;
+        align-self: center;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        width: 100vw;
+    }
+    h3{
+        font-size: .75rem;
+    }
+}
+
 h3{
     font-family: 'RockSalt';
     font-size: small;
@@ -19,6 +46,7 @@ h3{
 
 .base {
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items:center;
     background-color: #282c34;
@@ -34,7 +62,7 @@ h3{
     display:flex;
     flex-direction: column;
     flex-wrap:wrap;
-    margin-right: 3rem;
+    margin: 0 0 0 0;
 
 }
 
@@ -57,13 +85,15 @@ h3{
     justify-content: center;
     align-items:center;
     flex-direction: column;
-    border-width: 150px;
     border:black
 }
-.nav-container .hexagonArea  :hover{
-    background-color: antiquewhite;
+.nav-container .hexagonArea  .hexagon:hover{
+    background-color: cornflowerblue;
+    filter: contrast(1);
 }
 
-#selected{
-    background-color: blue;
+
+
+.selected{
+    background-color: cornflowerblue !important;
 }

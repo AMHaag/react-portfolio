@@ -1,10 +1,8 @@
 import React from 'react';
 import './contentStyle.css';
 import profilePic from '../../images/Ahaag-Photo.jpg';
-import { FaRegIdCard } from 'react-icons/fa';
 
 function Resume() {
-    let iconStyle = {fontSize:'70px',margin:'5px'}
   return (
     <div>
       <div className='boxContainer'>
@@ -22,8 +20,7 @@ function Resume() {
             </div>
             <div className='download-container'>
               <a href={profilePic} download className='download-link'>
-                <FaRegIdCard style={iconStyle}/>
-                Click to download.
+                Click here to download .pdf
               </a>
             </div>
           </div>
