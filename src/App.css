@@ -7,6 +7,10 @@
   font-family: RockSalt;
   src: url('./fonts/RockSalt-Regular.ttf');
 }
+@font-face {
+  font-family: Wigglye;
+  src: url('./fonts/Wigglye.ttf');
+}
 
 .App {
   text-align: center;

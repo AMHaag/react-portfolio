@@ -5,15 +5,15 @@ import profilePic from '../../images/Ahaag-Photo.jpg';
 function AboutMe() {
   return (
     <div>
-      <div className='aboutContainer'>
-        <div className='aboutLeft'>
+      <div className='boxContainer'>
+        <div className='boxLeft'>
           <img
             src={profilePic}
             id='profilePicture'
             alt='selfie of Aaron Haag'
           ></img>
         </div>
-        <div className='aboutRight'>
+        <div className='boxRight'>
           <h2>Who is Aaron Haag</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
