@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+Note Take App
+Deployed: https://whispering-scrubland-18262.herokuapp.com/ 
+Github: https://github.com/AMHaag/little-shrimp-king
+
+Weather App
+Deployed: https://amhaag.github.io/Weather-App/
+Github: https://github.com/AMHaag/Weather-App
+
+Password Generator
+Deployed:
+https://amhaag.github.io/
+
+Github: https://github.com/AMHaag/amhaag.github.io/blob/main/README.md

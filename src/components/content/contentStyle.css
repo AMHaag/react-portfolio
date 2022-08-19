@@ -82,6 +82,7 @@ flex-direction: column;
 
 .download-container{
     border: 1px solid brown;
+    border-radius: 5% 5%;
     justify-self: flex-end;
     display: inline;
 }
@@ -141,3 +142,56 @@ textarea {
 
 /* Projects Page Styling */
 
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* max-height: 1200px; */
+    flex-direction: row;
+}
+.project-card{
+    border: 3px solid black;
+    background-color: lightblue;
+    border-radius: 9%;
+    min-height: 500px;
+    min-width: 350px;
+    max-width: 400px;
+    margin: 2rem 2rem 2rem 2rem;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 7px;
+}
+.thumb-container{
+    position: relative; 
+
+}
+
+#project-thumb{
+    border-radius: 7%;
+}
+
+.project-title{
+    font-size: 2rem;
+}
+.project-description{
+    padding:.5rem 2rem .5rem 2rem;
+}
+.tech-icons{
+    font-size: 3.5rem;
+    padding:1rem 1rem 1rem 1rem;
+}
+.tech-title{
+    font-weight: bold;
+}
+.ext-links:hover{
+    color:blue;
+}
+#project-2{
+    background-color: rgb(43, 244, 203);
+}
+#project-3{
+    background-color:lightsalmon;
+}
+#project-4{
+    background-color:pink
+}

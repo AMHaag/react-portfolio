@@ -1,6 +1,7 @@
 import React from 'react';
 import './contentStyle.css';
 import profilePic from '../../images/Ahaag-Photo.jpg';
+import resumePdf from '../../pdf/Aaron-Haag-Resume.pdf'
 
 function Resume() {
   return (
@@ -19,7 +20,7 @@ function Resume() {
               <h1 className='headline'>Resume</h1>
             </div>
             <div className='download-container'>
-              <a href={profilePic} download className='download-link'>
+              <a href={resumePdf} download className='download-link'>
                 Click here to download .pdf
               </a>
             </div>
