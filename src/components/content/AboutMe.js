@@ -1,5 +1,5 @@
 import React from 'react';
-import './contentStyle.css'
+import './contentStyle.css';
 import profilePic from '../../images/Ahaag-Photo.jpg';
 
 function AboutMe() {
@@ -15,21 +15,15 @@ function AboutMe() {
         </div>
         <div className='boxRight'>
           <h2>Who is Aaron Haag</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Platea
-            dictumst vestibulum rhoncus est pellentesque. Adipiscing commodo
-            elit at imperdiet dui accumsan sit amet nulla. Amet venenatis urna
-            cursus eget nunc scelerisque viverra. Massa sapien faucibus et
-            molestie ac feugiat. Rhoncus urna neque viverra justo nec ultrices.
-            Malesuada nunc vel risus commodo viverra maecenas accumsan lacus
-            vel. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra.
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. A diam
-            maecenas sed enim. Donec enim diam vulputate ut pharetra sit amet
-            aliquam id. Euismod quis viverra nibh cras pulvinar mattis. Nisl
-            nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Sed adipiscing
-            diam donec adipiscing tristique risus nec feugiat. Pretium quam
-            vulputate dignissim suspendisse in.
+          <p className='about-me-text'>
+            Aaron Haag is a full stack developer leveraging his background in
+            cross system reporting to provide insight on curating data for
+            end-users to make decisions and trace data flow. He earned a
+            certificate in Full Stack Web Development from the University of
+            Connecticut. Aaron is a dedicated puzzle solver who is passionate
+            about developing apps with a focus on mobile-first design and good
+            testing. His greatest strengths are in creativity, process
+            improvements, and defining goals.
           </p>
         </div>
       </div>

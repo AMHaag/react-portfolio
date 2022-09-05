@@ -42,6 +42,10 @@ h2{
     align-self: center;
 }
 
+.about-me-text{
+    padding-bottom: 2rem;
+}
+
 @media only screen and (max-width: 1000px) {
     #profilePicture{
         height:200px;
