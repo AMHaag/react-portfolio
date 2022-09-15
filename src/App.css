@@ -21,6 +21,16 @@
   pointer-events: none;
 }
 
+.slide-appear{
+  transform:translateX(100%);
+  opacity: .01;
+}
+.slide-appear.slide-appear.active{
+  transform:translateY(0);
+  opacity:1;
+  transition: transform 500ms ease,opacity 500ms ease;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
