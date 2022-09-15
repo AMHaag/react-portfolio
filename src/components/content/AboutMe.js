@@ -14,7 +14,7 @@ function AboutMe() {
           ></img>
         </div>
         <div className='boxRight'>
-          <h2>Who is Aaron Haag</h2>
+          <h2 className='about-title'>Who is Aaron Haag</h2>
           <p className='about-me-text'>
             Aaron Haag is a full stack developer leveraging his background in
             cross system reporting to provide insight on curating data for

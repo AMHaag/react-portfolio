@@ -5,6 +5,11 @@
 
 /* Reused Styling [AboutMe,Resume,*/
 
+@keyframes enterLeft{
+    from{transform: translateX(-100%);}
+    to {transform:translateX(0%)}
+}
+
 a{
     color:black;
     text-decoration: none;
@@ -40,10 +45,20 @@ h2{
     width: 500px;
     border-radius: 50%;
     align-self: center;
+
+}
+
+.about-title{
+    font-family: Bangers;
+    font-size:3rem;
 }
 
 .about-me-text{
     padding-bottom: 2rem;
+    margin:2rem;
+    font-size: larger;
+    
+
 }
 
 @media only screen and (max-width: 1000px) {
