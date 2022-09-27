@@ -1,19 +1,42 @@
 import React from 'react';
 import './contentStyle.css';
 import profilePic from '../../images/Ahaag-Photo.jpg';
+import {motion} from 'framer-motion'
 
 function AboutMe() {
   return (
     <div>
       <div className='boxContainer'>
-        <div className='boxLeft'>
+        <motion.div
+          className='boxLeft'
+          whileHover={{ scale: 1.1 }}
+          initial={{ x: '-300%' }}
+          animate={{ x: 0 }}
+          transition={{
+            duration: 0.85,
+            delay: 0.335,
+            type: 'spring',
+            bounce: 0.1,
+          }}
+        >
           <img
             src={profilePic}
             id='profilePicture'
             alt='selfie of Aaron Haag'
           ></img>
-        </div>
-        <div className='boxRight'>
+        </motion.div>
+        <motion.div
+          className='boxRight'
+          whileHover={{ scale: 1.1 }}
+          initial={{ x: '300%' }}
+          animate={{ x: 0 }}
+          transition={{
+            duration: 0.85,
+            delay: 0.335,
+            type: 'spring',
+            bounce: 0.1,
+          }}
+        >
           <h2 className='about-title'>Who is Aaron Haag</h2>
           <p className='about-me-text'>
             Aaron Haag is a full stack developer leveraging his background in
@@ -25,7 +48,7 @@ function AboutMe() {
             testing. His greatest strengths are in creativity, process
             improvements, and defining goals.
           </p>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

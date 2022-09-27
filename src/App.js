@@ -4,12 +4,11 @@ import './App.css';
 import Navbar from './components/navbar';
 import Stage from './components/stage';
 import Footer from './components/footer';
-import {CSSTransition, TransitionGroup} from 'react-transition-group';
 
 function App() {
   document.title = `Aaron Haag's portfolio`;
   const [content] = useState(['about', 'resume', 'contact', 'projects']);
-  const [currentContent, setContent] = useState(content[0]);
+  const [currentContent, setContent] = useState(content[1]);
 
   return (
     <div className='App'>

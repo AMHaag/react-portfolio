@@ -214,3 +214,106 @@ textarea {
 #project-4{
     background-color:pink
 }
+
+
+/* RESUME TIMELINE */
+
+
+
+.timeline-grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 10fr 2fr;
+    grid-template-rows:  100px 30px repeat(8, minmax(20px,100px));
+    grid-column-gap: 10px;
+    grid-row-gap: 25px;
+}
+
+.tl-title-box {
+    grid-area: 1 / 2 / 2 / 5;
+}
+
+.tl-options-box {
+    grid-area: 2 / 2 / 3 / 5;
+}
+.resume-content {
+    border:none !important;
+    background-color: #f0f0f5;
+    border-radius: 14px;
+}
+
+
+.timeline{
+    grid-area: 2/ 3 / 14 / 4;
+    /* min-width:27px; */
+}
+
+.tl-point-1{
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.tl-year-1{
+    grid-area: 3/ 2 /4/3;
+}
+
+.tl-event-1{
+    grid-area: 3/4/4/5;
+}
+
+.tl-point-2{
+    grid-area: 4/3/5/4
+}
+.tl-year-2{
+    grid-area:4/2/5/3;
+}
+.tl-event-2{
+    grid-area:4/4/5/5;
+}
+.tl-point-3{
+    grid-area: 5/3/6/4;
+}
+.tl-year-3{
+    grid-area:5/2/6/3;
+}
+.tl-event-3{
+    grid-area:5/4/6/5;
+}
+.tl-point-4{
+    grid-area: 6/3/7/4
+}
+.tl-year-4{
+    grid-area:6/2/7/3;
+}
+.tl-event-4{
+    grid-area:6/4/7/5;;
+}
+.tl-point-5{
+    grid-area: 7/3/8/4
+}
+.tl-year-5{
+    grid-area:7/2/8/3;
+}
+.tl-event-5{
+    grid-area:7/4/8/5;
+}
+.tl-point-6{
+    grid-area: 8/3/9/4
+}
+.tl-year-6{
+    grid-area:8/2/9/3;
+}
+.tl-event-6{
+    grid-area:8/4/9/5;
+}
+.tl-point-7{
+    grid-area: 9/3/10/4
+}
+.tl-year-7{
+    grid-area:9/2/10/3;
+}
+.tl-event-7{
+    grid-area:9/4/10/5;
+}
+
+.event{
+    background-color: ;
+}
