@@ -1,3 +1,11 @@
+:root {
+  --blue: #23B5D3;
+  --green: #9EE943;
+  --slate: #DAF7DC;
+  --gray: #6C6EA0;
+  --black: #101419;
+}
+
 @font-face {
   font-family: Bangers;
   src: url('./fonts/Bangers-Regular.ttf');
@@ -11,6 +19,16 @@
   font-family: Wigglye;
   src: url('./fonts/Wigglye.ttf');
 }
+@font-face {
+  font-family: Lora;
+  src: url('./fonts/Lora.ttf');
+}
+@font-face {
+  font-family: Lora-Italic;
+  src: url('./fonts/Lora-Italic.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 
 .App {
   text-align: center;
@@ -38,28 +56,20 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--black);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--slate);
 }
 
 .App-link {
-  color: #61dafb;
+  color: var(--blue);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 /* end of default styling */
 

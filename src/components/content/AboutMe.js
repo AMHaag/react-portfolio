@@ -9,7 +9,6 @@ function AboutMe() {
       <div className='boxContainer'>
         <motion.div
           className='boxLeft'
-          whileHover={{ scale: 1.1 }}
           initial={{ x: '-300%' }}
           animate={{ x: 0 }}
           transition={{
@@ -27,7 +26,6 @@ function AboutMe() {
         </motion.div>
         <motion.div
           className='boxRight'
-          whileHover={{ scale: 1.1 }}
           initial={{ x: '300%' }}
           animate={{ x: 0 }}
           transition={{

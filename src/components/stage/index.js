@@ -6,11 +6,12 @@ import Contact from '../content/Contact';
 
 
 function Stage(props) {
-const {currentContent}=props
+const currentContent=props.currentContent
+const isMobile = props.isMobile;
 console.log(props)
-if (currentContent === 'about') {return <AboutMe />};
-if(currentContent==='resume'){return <Resume/>};
-if(currentContent==='contact'){return <Contact/>};
-if (currentContent === 'projects') {return <Projects />}
+if (currentContent === 'about') {return <AboutMe isMobile={isMobile}/>};
+if(currentContent==='resume'){return <Resume isMobile={isMobile} />;};
+if(currentContent==='contact'){return <Contact isMobile={isMobile} />;};
+if (currentContent === 'projects') {return <Projects isMobile={isMobile} />;}
 }
 export default Stage

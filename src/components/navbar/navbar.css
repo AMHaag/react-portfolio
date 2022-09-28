@@ -1,3 +1,12 @@
+:root {
+    --blue: #23B5D3;
+    --green: #9EE943;
+    --slate: #DAF7DC;
+    --gray: #6C6EA0;
+    --gray-light:#8485ae;
+    --black: #101419;
+}
+
 *{
     margin:0;
     padding:0;
@@ -7,8 +16,11 @@ h1{
     font-family:'Wigglye';
     margin: 0 0 0 3rem;
     font-size: 105px;
-    color: aqua;
+    color: var(--blue);
+}
 
+h1:hover{
+    color:var(--gray-light)
 }
 
 @media only screen and (max-width: 1000px) {
@@ -49,7 +61,7 @@ h3{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items:center;
-    background-color: #282c34;
+    background-color: var(--black);
     margin: right 100px;
     /* min-height: 100vh; */
 
@@ -80,21 +92,20 @@ h3{
     height: 115px;
     margin: 0 6px;
     clip-path:polygon(0 25%,50% 0,100% 25%,100% 75%,50% 100%,0 75%);
-    background-color: aqua;
+    background-color: var(--blue);
     display:flex;
     justify-content: center;
     align-items:center;
     flex-direction: column;
-    border:black;
     transition: background-color 320ms ease;
 }
 .nav-container .hexagonArea  .hexagon:hover{
-    background-color: cornflowerblue;
+    background-color: var(--gray-light);
     filter: contrast(1);
 }
 
 
 
 .selected{
-    background-color: cornflowerblue !important;
+    background-color: var(--gray) !important;
 }
