@@ -63,13 +63,13 @@ h2{
 
 .about-title{
     font-family: Bangers;
-    font-size:3rem;
+    font-size:3.5rem;
 }
 
 .about-me-text{
     padding-bottom: 2rem;
     margin:2rem;
-    font-size: larger;
+    font-size: 1.75rem;
     
 
 }
@@ -419,6 +419,18 @@ textarea {
     .event-title{
         margin:5px;
     }
+        .about-title {
+            font-family: Bangers;
+            font-size: 2rem;
+            
+        }
+    
+        .about-me-text {
+            font-size: 1.25rem;
+            margin: 1em;
+    
+    
+        }
 }
 /* debugging tags */
 #viz-bug{
