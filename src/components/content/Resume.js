@@ -60,7 +60,7 @@ function Resume(props) {
             <p>Web Development Bootcamp</p>
             <ul>
               <li>
-                Learned CSS,HTML and Javascript with a focus on ES6 features.
+                Studied CSS,HTML and Javascript with a focus on ES6 features.
               </li>
               <li>
                 Learned the MERN stack (MongoDB, Express, React and Node.js)

@@ -37,14 +37,12 @@ function AboutMe() {
         >
           <h2 className='about-title'>Who is Aaron Haag</h2>
           <p className='about-me-text'>
-            Aaron Haag is a full stack developer leveraging his background in
-            cross system reporting to provide insight on curating data for
-            end-users to make decisions and trace data flow. He earned a
-            certificate in Full Stack Web Development from the University of
-            Connecticut. Aaron is a dedicated puzzle solver who is passionate
-            about developing apps with a focus on mobile-first design and good
-            testing. His greatest strengths are in creativity, process
-            improvements, and defining goals.
+            Full stack developer leveraging a background in finding solutions
+            and reducing repetitive tasks . Earned a certificate in Full Stack
+            Web Development from the University of Connecticut. Dedicated puzzle
+            solver who is passionate about developing apps with a focus on
+            mobile-first design and good testing. Strengths in creativity,
+            process improvements, and defining goals.
           </p>
         </motion.div>
       </div>
