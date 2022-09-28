@@ -8,7 +8,7 @@ import Footer from './components/footer';
 function App() {
   document.title = `Aaron Haag's portfolio`;
   const [content] = useState(['about', 'resume', 'contact', 'projects']);
-  const [currentContent, setContent] = useState(content[1]);
+  const [currentContent, setContent] = useState(content[0]);
   const [isMobile,setIsMobile] = useState(false)
 
   useEffect(()=>{if(window.innerWidth <400){setIsMobile(true)}},[])
