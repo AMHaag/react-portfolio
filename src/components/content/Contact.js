@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './contentStyle.css';
 import profilePic from '../../images/Ahaag-Photo.jpg';
+import emailjs from '@emailjs/browser';
+import toast, { Toaster } from 'react-hot-toast';
+
 
 function Contact() {
   const [formState, setFormState] = useState({
@@ -12,14 +15,46 @@ function Contact() {
 
   function handleChange(e) {
     setFormState({ ...formState, [e.target.name]: e.target.value });
+    console.log(e);
   }
+let sendMessage = emailjs.send(
+  'service_cfbmo1i',
+  'template_9fe2v2s',
+  formState,
+  '42e7mfMHiKywSccmq'
+);
+
+
+  let sendToast = (formState) => {
+    toast.promise(
+      sendMessage,
+      {
+        loading: 'Loading',
+        success: (data) => `Message sent!`,
+        error: (err) => `This just happened: ${err.toString()}`,
+      },
+      {
+        style: {
+          minWidth: '250px',
+        },
+        success: {
+          duration: 4000,
+        },
+      }
+    );
+  };
   function handleSubmit(e) {
     e.preventDefault();
-    
+    console.log(e.target);
+    console.log(formState + 'formstate');
+    sendToast();
+
+
   }
 
   return (
     <div>
+      <Toaster />
       <div className='boxContainer'>
         <div className='boxLeft'>
           <img

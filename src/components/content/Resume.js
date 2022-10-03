@@ -35,7 +35,7 @@ function Resume(props) {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.372 }}
         >
-          <div className='event-year'>
+          <div className='event-year year'>
             <p>
               March 2022 <br /> August 2022
             </p>

@@ -409,6 +409,14 @@ textarea {
 
         .timeline-grid-container{
             grid-template-columns: 0.1fr 1fr 1fr 10fr .1fr;
+            grid-template-rows: 65px 45px repeat(4, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 5px;
+        }
+        .tl-options-box{
+            padding:0 40px 0 10px;
+            
+
         }
 
 
@@ -418,6 +426,15 @@ textarea {
 
     .event-title{
         margin:5px;
+    }
+    .event-year{
+        text-align: center;
+    }
+    .event-summary{
+        flex-grow: 6;
+    }
+    .year{
+        min-height: max-content;
     }
         .about-title {
             font-family: Bangers;
@@ -431,6 +448,9 @@ textarea {
     
     
         }
+                .tl-title-box>h1{
+                    font-size: 48px;
+                }
 }
 /* debugging tags */
 #viz-bug{
