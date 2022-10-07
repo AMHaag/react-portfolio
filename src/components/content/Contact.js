@@ -4,7 +4,6 @@ import profilePic from '../../images/Ahaag-Photo.jpg';
 import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
 
-
 function Contact() {
   const [formState, setFormState] = useState({
     name: '',
@@ -15,19 +14,16 @@ function Contact() {
 
   function handleChange(e) {
     setFormState({ ...formState, [e.target.name]: e.target.value });
-    console.log(e);
   }
-let sendMessage = emailjs.send(
-  'service_cfbmo1i',
-  'template_9fe2v2s',
-  formState,
-  '42e7mfMHiKywSccmq'
-);
 
-
-  let sendToast = (formState) => {
+  function sendToast() {
     toast.promise(
-      sendMessage,
+      emailjs.send(
+        'service_cfbmo1i',
+        'template_9fe2v2s',
+        formState,
+        '42e7mfMHiKywSccmq'
+      ),
       {
         loading: 'Loading',
         success: (data) => `Message sent!`,
@@ -42,14 +38,15 @@ let sendMessage = emailjs.send(
         },
       }
     );
-  };
+  }
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(e.target);
-    console.log(formState + 'formstate');
+    setFormState({
+      name: e.target.name.value,
+      email: e.target.email.value,
+      message: e.target.message.value,
+    });
     sendToast();
-
-
   }
 
   return (
@@ -75,7 +72,7 @@ let sendMessage = emailjs.send(
                   type='text'
                   name='name'
                   defaultValue={name}
-                  onChange={handleChange}
+                  // onChange={handleChange}
                 />
               </div>
               <div id='email-input'>
@@ -84,7 +81,7 @@ let sendMessage = emailjs.send(
                   type='email'
                   name='email'
                   defaultValue={email}
-                  onChange={handleChange}
+                  // onChange={handleChange}
                 />
               </div>
               <div>
@@ -93,7 +90,7 @@ let sendMessage = emailjs.send(
                   name='message'
                   rows='5'
                   defaultValue={message}
-                  onChange={handleChange}
+                  // onChange={handleChange}
                 />
                 <button type='submit'>Submit</button>
               </div>
