@@ -7,14 +7,19 @@ import {
   FaRegEnvelope,
   FaGithub,
 } from 'react-icons/fa';
+import { CSSTransition } from 'react-transition-group';
 
 function Navbar(props) {
   const iconStyle = { fontSize: '40px', margin: '0px', padding: '0px' };
   const { currentContent, setContent } = props;
   console.log(currentContent);
+
   return (
     <div className='base'>
-      <h1>Aaron Haag</h1>
+      <CSSTransition in={false} timeout={250} classNames='slide'>
+        <h1>Aaron Haag</h1>
+      </CSSTransition>
+
       <div className='nav-container'>
         <div className='hexagonArea first'>
           <div

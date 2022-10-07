@@ -1,6 +1,19 @@
+:root{
+    --blue:#23B5D3;
+    --blue-v-light:#bdeaf4;
+    --green:#9EE943;
+    --slate:#DAF7DC;
+    --gray:#6C6EA0;
+    --gray-light: #8485ae;
+    --black:#101419;
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+.disappear{
+    display:none !important;
 }
 
 /* Reused Styling [AboutMe,Resume,*/
@@ -50,36 +63,17 @@ h2{
 
 .about-title{
     font-family: Bangers;
-    font-size:3rem;
+    font-size:3.5rem;
 }
 
 .about-me-text{
     padding-bottom: 2rem;
     margin:2rem;
-    font-size: larger;
+    font-size: 1.75rem;
     
 
 }
 
-@media only screen and (max-width: 1000px) {
-    #profilePicture{
-        height:200px;
-        width:200px;
-        margin:0;
-    }
-    .boxContainer{
-        min-height: 0px;
-        flex-wrap: wrap;
-    }
-    .boxLeft{
-        width:100vw;
-
-    }
-        .download-link{
-            font-size: 2rem !important;
-            
-        }
-}
 
 #profilePicture:hover{
     filter: grayscale(.6);
@@ -213,4 +207,252 @@ textarea {
 }
 #project-4{
     background-color:pink
+}
+
+
+/* RESUME TIMELINE */
+
+
+
+.timeline-grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 10fr 2fr;
+    grid-template-rows:  100px 30px repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 25px;
+}
+
+.tl-title-box {
+    grid-area: 1 / 2 / 2 / 5;
+}
+
+.tl-title-box>h1{
+    font-family:Lora;
+    color:var(--black);
+    font-size:96px;
+}
+
+.tl-options-box {
+    grid-area: 2 / 2 / 3 / 5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.tl-options-box>p{
+    color:var(--gray-light)
+}
+.resume-content {
+    border:none !important;
+    background-color: #f0f0f5;
+    border-radius: 14px;
+}
+
+
+.timeline{
+    grid-area: 2/ 3 / 8/ 4;
+    /* min-width:27px; */
+}
+
+.tl-point-1{
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.tl-year-1{
+    grid-area: 3/ 2 /4/3;
+}
+
+.tl-event-1{
+    grid-area: 3/4/4/5;
+}
+
+.tl-point-2{
+    grid-area: 4/3/5/4
+}
+.tl-year-2{
+    grid-area:4/2/5/3;
+}
+.tl-event-2{
+    grid-area:4/4/5/5;
+}
+.tl-point-3{
+    grid-area: 5/3/6/4;
+}
+.tl-year-3{
+    grid-area:5/2/6/3;
+}
+.tl-event-3{
+    grid-area:5/4/6/5;
+}
+.tl-point-4{
+    grid-area: 6/3/7/4
+}
+.tl-year-4{
+    grid-area:6/2/7/3;
+}
+.tl-event-4{
+    grid-area:6/4/7/5;;
+}
+.tl-point-5{
+    grid-area: 7/3/8/4
+}
+.tl-year-5{
+    grid-area:7/2/8/3;
+}
+.tl-event-5{
+    grid-area:7/4/8/5;
+}
+.tl-point-6{
+    grid-area: 8/3/9/4
+}
+.tl-year-6{
+    grid-area:8/2/9/3;
+}
+.tl-event-6{
+    grid-area:8/4/9/5;
+}
+.tl-point-7{
+    grid-area: 9/3/10/4
+}
+.tl-year-7{
+    grid-area:9/2/10/3;
+}
+.tl-event-7{
+    grid-area:9/4/10/5;
+}
+.tl-point-8 {
+    grid-area: 10/3/11/4
+}
+
+.tl-year-7 {
+    grid-area: 10/2/11/3;
+}
+.tl-event-8{
+    grid-area: 10/4/11/5
+}
+
+.year{
+    font-family: Lora-Italic;
+    height:max-content
+}
+
+.event{
+    background-color: var(--blue-v-light);
+    border:1px solid var(--blue);
+    border-radius: 8px;
+    display:flex;
+    justify-content: flex-start;
+        
+}
+.event-title{
+    flex-grow:1;
+    font-family: Lora;
+    font-size: 21px;
+    color:var(var(--black));
+    margin:0.5em 1em 0.5em 0.5em;
+    min-width: 160px;
+    max-width:160px;
+
+}
+.event-summary{
+    padding:5px;
+    flex-grow: 6;
+}
+
+.event-summary>p{
+    font-family: Lora;
+    font-size: large;
+    text-align: left;
+    margin:.5em;
+}
+
+.event-summary>ul{
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.event-year{
+    text-align:right;
+    display: grid;
+    align-content: center;
+    min-height:160px;
+
+}
+
+#bootcamp{
+    margin-bottom: 25px;
+}
+#company{
+    margin-bottom:15px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #profilePicture {
+        height: 200px;
+        width: 200px;
+        margin: 0;
+    }
+
+    .boxContainer {
+        min-height: 0px;
+        flex-wrap: wrap;
+    }
+
+    .boxLeft {
+        width: 100vw;
+
+    }
+
+    .download-link {
+        font-size: 2rem !important;
+
+    }
+
+        .timeline-grid-container{
+            grid-template-columns: 0.1fr 1fr 1fr 10fr .1fr;
+            grid-template-rows: 65px 45px repeat(4, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 5px;
+        }
+        .tl-options-box{
+            padding:0 40px 0 10px;
+            
+
+        }
+
+
+    .event{
+        flex-direction: column;
+    }
+
+    .event-title{
+        margin:5px;
+    }
+    .event-year{
+        text-align: center;
+    }
+    .event-summary{
+        flex-grow: 6;
+    }
+    .year{
+        min-height: max-content;
+    }
+        .about-title {
+            font-family: Bangers;
+            font-size: 2rem;
+            
+        }
+    
+        .about-me-text {
+            font-size: 1.25rem;
+            margin: 1em;
+    
+    
+        }
+                .tl-title-box>h1{
+                    font-size: 48px;
+                }
+}
+/* debugging tags */
+#viz-bug{
+    border:1px solid black;
 }
