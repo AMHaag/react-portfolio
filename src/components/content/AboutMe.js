@@ -45,7 +45,7 @@ function AboutMe() {
             process improvements, and defining goals.
           </p>
           <p className='about-me-text'>
-            Areas of focus: Javascript, CSS, React, Node.js, MongoDB, MySQL and
+            Areas of focus: Javascript, CSS, React, Node.js, Git, MongoDB, MySQL and
             Express.js
           </p>
         </motion.div>
