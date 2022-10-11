@@ -37,12 +37,16 @@ function AboutMe() {
         >
           <h2 className='about-title'>Who is Aaron Haag</h2>
           <p className='about-me-text'>
-            Full stack developer leveraging a background in finding solutions
-            and reducing repetitive tasks . Earned a certificate in Full Stack
-            Web Development from the University of Connecticut. Dedicated puzzle
+            I'm a full stack developer leveraging a background in finding solutions
+            and reducing repetitive tasks. I earned a certificate in Full Stack
+            Web Development from the University of Connecticut. I'm a dedicated puzzle
             solver who is passionate about developing apps with a focus on
-            mobile-first design and good testing. Strengths in creativity,
+            mobile-first design and good testing. My Strengths are in creativity,
             process improvements, and defining goals.
+          </p>
+          <p className='about-me-text'>
+            Areas of focus: Javascript, CSS, React, Node.js, Git, MongoDB, MySQL and
+            Express.js
           </p>
         </motion.div>
       </div>
