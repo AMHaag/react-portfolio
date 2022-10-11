@@ -3,6 +3,7 @@ import './contentStyle.css';
 import profilePic from '../../images/Ahaag-Photo.jpg';
 import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
+import {css} from '@emotion/react'
 
 function Contact() {
   const [formState, setFormState] = useState({
@@ -63,6 +64,13 @@ function Contact() {
         <div className='boxRight'>
           <div className='headlineBox'>
             <h1 className='headline'>Contact Me</h1>
+            <p>
+              I can be contacted at{' '}
+              <a className='contact-line'href='maito:aaronm.haag+portfolio@gmail.com' >
+                aaronm.haag+portfolio@gmail.com
+              </a>{' '}
+              or by using the form below.
+            </p>
           </div>
           <section className='contact-box'>
             <form id='contact-form' onSubmit={handleSubmit}>
