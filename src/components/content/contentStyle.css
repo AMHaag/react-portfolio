@@ -229,7 +229,7 @@ textarea {
 .tl-title-box>h1{
     font-family:Lora;
     color:var(--black);
-    font-size:96px;
+    font-size:72px;
 }
 
 .tl-options-box {
@@ -459,4 +459,19 @@ textarea {
 /* debugging tags */
 #viz-bug{
     border:1px solid black;
+}
+
+.projects-frame{
+    border: 5px solid blue;
+}
+
+.projects-header{
+        font-family: Lora;
+        color: var(--black);
+        font-size: 72px;
+}
+
+.projects-container{
+    border: 3px solid red;
+    
 }
