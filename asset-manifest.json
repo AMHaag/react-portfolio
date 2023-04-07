@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.c5d3ec80.css",
-    "main.js": "/react-portfolio/static/js/main.864c8576.js",
+    "main.js": "/react-portfolio/static/js/main.75e90033.js",
     "static/media/Lora-Italic.ttf": "/react-portfolio/static/media/Lora-Italic.731176b1f393de411b4f.ttf",
     "static/media/Lora.ttf": "/react-portfolio/static/media/Lora.08d5a3eb917fa40a7168.ttf",
     "static/media/Ahaag-Photo.jpg": "/react-portfolio/static/media/Ahaag-Photo.7f39df7e7b05badee84b.jpg",
@@ -15,10 +15,10 @@
     "static/media/Password-Generator-300-300.png": "/react-portfolio/static/media/Password-Generator-300-300.c32f7da126f6c2de1761.png",
     "index.html": "/react-portfolio/index.html",
     "main.c5d3ec80.css.map": "/react-portfolio/static/css/main.c5d3ec80.css.map",
-    "main.864c8576.js.map": "/react-portfolio/static/js/main.864c8576.js.map"
+    "main.75e90033.js.map": "/react-portfolio/static/js/main.75e90033.js.map"
   },
   "entrypoints": [
     "static/css/main.c5d3ec80.css",
-    "static/js/main.864c8576.js"
+    "static/js/main.75e90033.js"
   ]
 }
