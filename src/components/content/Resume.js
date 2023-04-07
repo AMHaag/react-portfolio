@@ -3,7 +3,6 @@ import './contentStyle.css';
 import resumePdf from '../../pdf/Aaron-Haag-Resume.pdf';
 import { Line, Dot } from '../../SVGs/TimelineShapes';
 import { motion } from 'framer-motion';
-import Uconn from '../../SVGs/UconnLogo';
 import ResumeInformation from './ResumeInformation';
 import { JobSummary, JobTitle, JobYear } from './ResumeJobSummary';
 import { GrDocumentPdf } from 'react-icons/gr';
@@ -36,9 +35,7 @@ function Resume(props) {
           transition={{ duration: 0.5, delay: 0.372 }}
         >
           <div className='event-year year'>
-            <p>
-              March 2022 <br /> August 2022
-            </p>
+            <JobYear job={ResumeInformation[0]} />
           </div>
         </motion.div>
         <motion.div
@@ -47,34 +44,8 @@ function Resume(props) {
           animate={{ x: 0 }}
           transition={{ duration: 1, delay: 0.372 }}
         >
-          <div className='event-title'>
-            <p id='bootcamp'>
-              University <br />
-              of Connecticut
-            </p>
-            <div className={props.isMobile ? 'disappear' : ''}>
-              <Uconn height='25px' />
-            </div>
-          </div>
-          <div className='event-summary'>
-            <p>Web Development Bootcamp</p>
-            <ul>
-              <li>
-                Studied CSS,HTML and Javascript with a focus on ES6 features.
-              </li>
-              <li>
-                Learned the MERN stack (MongoDB, Express, React and Node.js)
-              </li>
-              <li>
-                Also brushed up on using MySQL and making use of the
-                Sequelize.js ORM
-              </li>
-              <li>
-                Additional topics covered were Git, PWAs, REST APIs, GraphQL and
-                TDD
-              </li>
-            </ul>
-          </div>
+          <JobTitle job={ResumeInformation[0]} />
+          <JobSummary job={ResumeInformation[0]} />
         </motion.div>
         <div className='tl-point-2'>
           <Dot delay='950ms' />
@@ -85,7 +56,7 @@ function Resume(props) {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.95 }}
         >
-          <JobYear job={ResumeInformation[0]} />
+          <JobYear job={ResumeInformation[1]} />
         </motion.div>
         <motion.div
           className='tl-event-2 event'
@@ -93,8 +64,8 @@ function Resume(props) {
           animate={{ x: 0 }}
           transition={{ duration: 1, delay: 0.95 }}
         >
-          <JobTitle job={ResumeInformation[0]} />
-          <JobSummary job={ResumeInformation[0]} />
+          <JobTitle job={ResumeInformation[1]} />
+          <JobSummary job={ResumeInformation[1]} />
         </motion.div>
         <div className='tl-point-3'>
           <Dot delay='1528ms' />
@@ -105,7 +76,7 @@ function Resume(props) {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 1.528 }}
         >
-          <JobYear job={ResumeInformation[1]} />
+          <JobYear job={ResumeInformation[2]} />
         </motion.div>
         <motion.div
           className='tl-event-3 event'
@@ -113,8 +84,8 @@ function Resume(props) {
           animate={{ x: 0 }}
           transition={{ duration: 1, delay: 1.528 }}
         >
-          <JobTitle job={ResumeInformation[1]} />
-          <JobSummary job={ResumeInformation[1]} />
+          <JobTitle job={ResumeInformation[2]} />
+          <JobSummary job={ResumeInformation[2]} />
         </motion.div>
         <div className='tl-point-4'>
           <Dot delay='2106ms' />
@@ -125,7 +96,7 @@ function Resume(props) {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 2.106 }}
         >
-          <JobYear job={ResumeInformation[2]} />
+          <JobYear job={ResumeInformation[3]} />
         </motion.div>
         <motion.div
           className='tl-event-4 event'
@@ -133,8 +104,8 @@ function Resume(props) {
           animate={{ x: 0 }}
           transition={{ duration: 1, delay: 2.106 }}
         >
-          <JobTitle job={ResumeInformation[2]} />
-          <JobSummary job={ResumeInformation[2]} />
+          <JobTitle job={ResumeInformation[3]} />
+          <JobSummary job={ResumeInformation[3]} />
         </motion.div>
       </div>
     </div>
