@@ -6,34 +6,17 @@ function ProjectCard(){
 
 
     return (
-      <div className='project-card'>
+      <div className='project-card-frame'>
         <img
-          src=''
-          alt='A game about birds'
-          id='project-thumb'
-        ></img>
-        <div className='project-title'>Note Taker</div>
-        <div className='project-description'>
-          A web app for taking meeting notes, built with express.js
-        </div>
-        <div className='project-tech-container'>
-          <div className='tech-title'>Technologies used:</div>
-          <div className='tech-icons'>
-            <FaHtml5 /> <SiCss3 /> <SiJavascript /> <br></br>
-            <SiExpress /> <SiHeroku /> <FaNode />
-          </div>
-          <div className='ext-links'>
-            <a href='https://whispering-scrubland-18262.herokuapp.com/ '>
-              View live deployment on Heroku
-            </a>
-            <br />
-            <a href='https://github.com/AMHaag/little-shrimp-king'>
-              View GitHub repo
-            </a>
-          </div>
-        </div>
+          src='https://placehold.co/500x800.jpeg'
+          alt='placeholder'
+          className='project-image'
+        />
+        <h3 className='project-name'>Sudoku Solver</h3>
+        <p className='project-one-liner'>
+          A recursive backtracking algorithm that can solve even extreme difficulty puzzles lightning fast.
+        </p>
       </div>
-    );
-}
+    );}
 
 export default ProjectCard

@@ -35,7 +35,7 @@ function AboutMe() {
             bounce: 0.1,
           }}
         >
-          <h2 className='about-title'>Who is Aaron Haag</h2>
+          <h2 className='about-title'>Who is Aaron Haag </h2>
           <p className='about-me-text'>
             I'm a full stack developer leveraging experience in finding solutions
             and reducing repetitive tasks. I earned a certificate in Full Stack

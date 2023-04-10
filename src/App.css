@@ -28,6 +28,25 @@
   src: url('./fonts/Lora-Italic.ttf');
 }
 
+@font-face {
+  font-family: Lemon-Milk-Light;
+  src: url('./fonts/LEMONMILK-Light.otf');
+}
+@font-face {
+  font-family: Lemon-Milk-Medium;
+  src: url('./fonts/LEMONMILK-Medium.otf');
+}
+@font-face {
+  font-family: Couture-Italic;
+  src: url('./fonts/couture-bldit.otf');
+}
+
+@font-face {
+  font-family: Restroking;
+  src: url('./fonts/Retroking.ttf')
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 
 .App {

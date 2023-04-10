@@ -62,8 +62,8 @@ h2{
 }
 
 .about-title{
-    font-family: Bangers;
-    font-size:3.5rem;
+    font-family: Restroking;
+    font-size:5rem;
 }
 
 .about-me-text{
@@ -227,9 +227,10 @@ textarea {
 }
 
 .tl-title-box>h1{
-    font-family:Lora;
+    font-family:Restroking;
     color:var(--black);
-    font-size:72px;
+    font-size:84px;
+    padding-top:15px;
 }
 
 .tl-options-box {
@@ -466,12 +467,39 @@ textarea {
 }
 
 .projects-header{
-        font-family: Lora;
+        font-family: Restroking;
         color: var(--black);
-        font-size: 72px;
+        font-size: 84px;
+        padding-top:15px;
 }
 
 .projects-container{
     border: 3px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.project-card-frame{
+    padding:10px 5px 10px 5px;
+    width:400px;
     
+}
+
+.project-image{
+    width: 375px;;
+    height:600px;
+}
+
+.project-name{
+    position:relative;
+    font-family: Lemon-Milk-Medium;
+    bottom:110px;
+    right: 70px;
+    font-size:x-large
+}
+.project-one-liner{
+    position:relative;
+    bottom:110px;
+    font-size:20px;
+    padding:5px
 }
