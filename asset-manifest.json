@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c5d3ec80.css",
-    "main.js": "/react-portfolio/static/js/main.aefa5af8.js",
+    "main.css": "/react-portfolio/static/css/main.198bc6da.css",
+    "main.js": "/react-portfolio/static/js/main.976303e5.js",
+    "static/media/Retroking.ttf": "/react-portfolio/static/media/Retroking.5559781461c58854e6ce.ttf",
     "static/media/Lora-Italic.ttf": "/react-portfolio/static/media/Lora-Italic.731176b1f393de411b4f.ttf",
     "static/media/Lora.ttf": "/react-portfolio/static/media/Lora.08d5a3eb917fa40a7168.ttf",
     "static/media/Ahaag-Photo.jpg": "/react-portfolio/static/media/Ahaag-Photo.7f39df7e7b05badee84b.jpg",
+    "static/media/SuDoKuSolver.jpeg": "/react-portfolio/static/media/SuDoKuSolver.8c3b89fef0e2f8481d35.jpeg",
     "static/media/RockSalt-Regular.ttf": "/react-portfolio/static/media/RockSalt-Regular.95f10efb43f0ccd46405.ttf",
     "static/media/Bangers-Regular.ttf": "/react-portfolio/static/media/Bangers-Regular.0e89a2279da24d283991.ttf",
+    "static/media/weather_app_thumbnail.png": "/react-portfolio/static/media/weather_app_thumbnail.d92ca6bad681336f767a.png",
     "static/media/Aaron-Haag-Resume.pdf": "/react-portfolio/static/media/Aaron-Haag-Resume.095a5d7e742eb42fdbaa.pdf",
+    "static/media/DAB_Thumbnail.png": "/react-portfolio/static/media/DAB_Thumbnail.a162fbce2030dc317ce4.png",
     "static/media/Wigglye.ttf": "/react-portfolio/static/media/Wigglye.459e34cbab4b02cfccf5.ttf",
-    "static/media/DAB-300-300.png": "/react-portfolio/static/media/DAB-300-300.a630dd1fdaad8e284499.png",
-    "static/media/Weather-App-300-300.png": "/react-portfolio/static/media/Weather-App-300-300.49f441e62491aec83aae.png",
-    "static/media/Note-Taker-300-300.png": "/react-portfolio/static/media/Note-Taker-300-300.bb1140c9052cd31bf30f.png",
-    "static/media/Password-Generator-300-300.png": "/react-portfolio/static/media/Password-Generator-300-300.c32f7da126f6c2de1761.png",
+    "static/media/LEMONMILK-Medium.otf": "/react-portfolio/static/media/LEMONMILK-Medium.3d615d9795b5607c2478.otf",
+    "static/media/LEMONMILK-Light.otf": "/react-portfolio/static/media/LEMONMILK-Light.febd30d6f2b77941893c.otf",
+    "static/media/couture-bldit.otf": "/react-portfolio/static/media/couture-bldit.43bbbb2c2ad8b53dda2f.otf",
     "index.html": "/react-portfolio/index.html",
-    "main.c5d3ec80.css.map": "/react-portfolio/static/css/main.c5d3ec80.css.map",
-    "main.aefa5af8.js.map": "/react-portfolio/static/js/main.aefa5af8.js.map"
+    "main.198bc6da.css.map": "/react-portfolio/static/css/main.198bc6da.css.map",
+    "main.976303e5.js.map": "/react-portfolio/static/js/main.976303e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5d3ec80.css",
-    "static/js/main.aefa5af8.js"
+    "static/css/main.198bc6da.css",
+    "static/js/main.976303e5.js"
   ]
 }
