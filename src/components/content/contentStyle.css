@@ -186,9 +186,7 @@ textarea {
 .project-title{
     font-size: 2rem;
 }
-.project-description{
-    padding:.5rem 2rem .5rem 2rem;
-}
+
 .tech-icons{
     font-size: 3.5rem;
     padding:1rem 1rem 1rem 1rem;
@@ -473,10 +471,12 @@ textarea {
         padding-top:15px;
 }
 
-.projects-container{
-    border: 3px solid red;
-    display: flex;
+.projects-container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 700px;
     justify-content: center;
+    align-content: space-around;
 }
 
 .project-card-frame{
@@ -484,22 +484,86 @@ textarea {
     width:400px;
     
 }
+.project-card-frame:hover{
+    cursor:pointer;
+}
 
 .project-image{
     width: 375px;;
     height:600px;
+    border-radius: 5%;
+        border: 1px solid black;
 }
 
 .project-name{
     position:relative;
     font-family: Lemon-Milk-Medium;
     bottom:110px;
-    right: 70px;
-    font-size:x-large
+    /* right: -20px; */
+        font-size: x-large;
+        /* text-align: left; */
 }
 .project-one-liner{
     position:relative;
     bottom:110px;
     font-size:20px;
-    padding:5px
+    padding: 0px 20px;
+    }
+    
+    .project-box {
+        display: flex;
+    }
+    
+    .project-description {
+        display: none;
+        width: 800px;
+        height: 600px;
+        opacity: 0;
+        padding: 10px 5px 10px 5px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        grid-area:1/2/2/4;
+        z-index: 10;
+    }
+    
+    .project-description>h2 {
+        font-size: 36px;
+        font-family: 'Lemon-Milk-Medium';
+    }
+    
+    .project-description>h3 {
+        font-size: 24px;
+        font-family: 'Lemon-Milk-Medium';
+        color: darkred;
+        padding: 10px;
+    
+    }
+    
+    .project-description>h3:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        cursor:pointer;
+    }
+    
+    .project-links>a {
+        font-size: 24px;
+        font-family: 'Lemon-Milk-Medium';
+        padding: 10px;
+
+    }
+    
+    .project-links>a:hover {
+        color: blue;
+        cursor:pointer;
+    }
+    
+    .project-one {
+        grid-area: 1/1/2/2;
+}
+    .project-two {
+        grid-area: 1/2/2/3;
+}
+    .project-three {
+        grid-area: 1/3/2/4;
 }

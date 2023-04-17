@@ -81,7 +81,9 @@ h3{
 
 .nav-container .hexagonArea{
     display:flex;
+
 }
+
 
 .nav-container .hexagonArea.last{
     transform:translateY(-20px)
@@ -103,6 +105,7 @@ h3{
 .nav-container .hexagonArea  .hexagon:hover{
     background-color: var(--gray-light);
     filter: contrast(1);
+    cursor:pointer;
 }
 
 

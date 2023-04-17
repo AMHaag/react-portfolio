@@ -1,22 +1,24 @@
-import React from "react";
+import { React } from 'react';
+
+function ProjectCard(props) {
+  const data = props.projectData;
 
 
 
-function ProjectCard(){
-
-
-    return (
+  return (
+    <div className='project-box'>
       <div className='project-card-frame'>
         <img
-          src='https://placehold.co/500x800.jpeg'
-          alt='placeholder'
+          src={data.ProjectImage}
+          alt={data.altText}
           className='project-image'
         />
-        <h3 className='project-name'>Sudoku Solver</h3>
-        <p className='project-one-liner'>
-          A recursive backtracking algorithm that can solve even extreme difficulty puzzles lightning fast.
-        </p>
+        <h3 className='project-name'>{data.ProjectName}</h3>
+        <p className='project-one-liner'>{data.oneLiner}</p>
       </div>
-    );}
 
-export default ProjectCard
+    </div>
+  );
+}
+
+export default ProjectCard;
