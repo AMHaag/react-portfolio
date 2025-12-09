@@ -27,8 +27,8 @@ function ProjectsV2() {
         { opacity: [1, 0, 0, 0, 0, 1] },
         { duration: 0.2 }
       );
-      animate('div.project-two', { opacity: 0 }, { duration: 0.2 });
-      animate('div.project-three', { opacity: 0 }, { duration: 0.2 });
+      // animate('div.project-two', { opacity: 0 }, { duration: 0.2 });
+      // animate('div.project-three', { opacity: 0 }, { duration: 0.2 });
       animate(
         'div.project-description',
         { display: 'flex', opacity: 1 },
@@ -172,7 +172,7 @@ function ProjectsV2() {
             projectData={ProjectList[0]}
           />
         </div>
-        <div className='project-two' id='card' onClick={() => changeProject(2)}>
+        {/* <div className='project-two' id='card' onClick={() => changeProject(2)}>
           <ProjectCard
             selected={project === 2 ? true : false}
             projectData={ProjectList[1]}
@@ -187,7 +187,7 @@ function ProjectsV2() {
             selected={project === 3 ? true : false}
             projectData={ProjectList[2]}
           />
-        </div>
+        </div> */}
         <div className='project-description'>
           <h2>About This Project</h2>
 

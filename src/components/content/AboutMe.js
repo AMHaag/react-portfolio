@@ -6,46 +6,41 @@ import {motion} from 'framer-motion'
 function AboutMe() {
   return (
     <div>
-      <div className='boxContainer'>
+      <div className="boxContainer">
         <motion.div
-          className='boxLeft'
-          initial={{ x: '-300%' }}
-          animate={{ x: 0 }}
+          className="boxLeft"
+          initial={{x: '-300%'}}
+          animate={{x: 0}}
           transition={{
             duration: 0.85,
             delay: 0.335,
             type: 'spring',
-            bounce: 0.1,
-          }}
-        >
+            bounce: 0.1
+          }}>
           <img
             src={profilePic}
-            id='profilePicture'
-            alt='selfie of Aaron Haag'
-          ></img>
+            id="profilePicture"
+            alt="selfie of Aaron Haag"></img>
         </motion.div>
         <motion.div
-          className='boxRight'
-          initial={{ x: '300%' }}
-          animate={{ x: 0 }}
+          className="boxRight"
+          initial={{x: '300%'}}
+          animate={{x: 0}}
           transition={{
             duration: 0.85,
             delay: 0.335,
             type: 'spring',
-            bounce: 0.1,
-          }}
-        >
-          <h2 className='about-title'>Who is Aaron Haag </h2>
-          <p className='about-me-text'>
-            I'm a full stack developer leveraging experience in finding solutions
-            and reducing repetitive tasks. I earned a certificate in Full Stack
-            Web Development from the University of Connecticut. I'm a dedicated puzzle
-            solver who is passionate about the user experience. My Strengths are in creativity,
-            process improvements, robust code and defining goals.
+            bounce: 0.1
+          }}>
+          <h2 className="about-title">Who is Aaron Haag </h2>
+          <p className="about-me-text">
+            Pragmatic programmer with a love for discovery, not ego. I excel at
+            rapid iteration and lean prototyping; make it, break it then build
+            it.
           </p>
-          <p className='about-me-text'>
-            Areas of expereince: Javascript, CSS, React, Node.js, Git, MySQL, Python, Pandas, Tkinter and
-            Express.js
+          <p className="about-me-text">
+            Areas of expereince: Javascript, CSS, React, Node.js, Git, MySQL,
+            Python, Pandas, C# and ASP.NET
           </p>
         </motion.div>
       </div>

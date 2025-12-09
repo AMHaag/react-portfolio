@@ -1,6 +1,6 @@
 import React from 'react';
 import './contentStyle.css';
-import resumePdf from '../../pdf/Aaron-Haag-Resume.pdf';
+import resumePdf from '../../pdf/resume_2025.pdf';
 import { Line, Dot } from '../../SVGs/TimelineShapes';
 import { motion } from 'framer-motion';
 import ResumeInformation from './ResumeInformation';

@@ -493,19 +493,20 @@ textarea {
     height:600px;
     border-radius: 5%;
         border: 1px solid black;
+        padding-bottom: 50px;
 }
 
 .project-name{
     position:relative;
     font-family: Lemon-Milk-Medium;
-    bottom:110px;
+    bottom:160px;
     /* right: -20px; */
         font-size: x-large;
         /* text-align: left; */
 }
 .project-one-liner{
     position:relative;
-    bottom:110px;
+    bottom:160px;
     font-size:20px;
     padding: 0px 20px;
     }
@@ -566,4 +567,10 @@ textarea {
 }
     .project-three {
         grid-area: 1/3/2/4;
+}
+
+
+.reachMe{
+    margin-top: 16px;
+    margin-bottom: 16px;
 }

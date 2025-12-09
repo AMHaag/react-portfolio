@@ -6,6 +6,24 @@ import Uconn from '../../SVGs/UconnLogo';
 
 const ResumeInformation = [
   {
+    company: 'Elite Casino Resorts',
+    location: 'Riverside, IA',
+    title: 'Web and Application Developer',
+    start: 'August 2023',
+    end: 'Present',
+    list1:
+      'Introduced version control with Git and adapted an inhouse GitHub alternative.',
+    list2:
+      'Created a release pipeline utilizing file hashing and the ability to downgrade versions.',
+    list3:
+      'Eliminated several paper based processes across 6 different casino locations.',
+    list4:
+      'Built an optimized real time data pipeline for live gaming information.',
+    list5:
+      'Designed a robust dashboard for help desk tickets and maintenance requests.',
+    icon: null
+  },
+  {
     company: 'Bridgeton Research Group',
     location: 'Westport,CT',
     title: 'Software Engineer',
@@ -20,7 +38,7 @@ const ResumeInformation = [
       'Refactored data ingest to be asynchrounous and non blocking, reducing run time by 700%.',
     list5:
       'Implemented a combination of Polars in Rust and different file compression to make loading large data frames 40 times faster.',
-    icon: null,
+    icon: null
   },
   {
     company: 'University of Connecticut',
@@ -34,7 +52,7 @@ const ResumeInformation = [
     list4:
       'Additional topics covered were Git, PWAs, REST APIs, GraphQL and TDD',
     list5: '',
-    icon: <Uconn height='25px' />,
+    icon: <Uconn height="25px" />
   },
   {
     company: 'Starr Companies',
@@ -49,7 +67,7 @@ const ResumeInformation = [
       'Facilitated contracted developers work on new features and provided User Acceptance Testing',
     list4: 'Designed file management schema for sharing files between teams',
     list5: '',
-    icon: <Starr height='25px' />,
+    icon: <Starr height="25px" />
   },
   {
     company: 'Epic Software',
@@ -66,25 +84,25 @@ const ResumeInformation = [
     list4:
       'Created new logic to filter for mislabeled billable time, increasing accuracy in charges',
     list5: '',
-    icon: <EpicLogo height='35px' />,
-  },
-  {
-    company: 'Agrace Hospice Care',
-    location: 'Madison,WI',
-    title: 'Purchasing and Inventory Clerk',
-    start: 'November 2012',
-    end: 'January 2015',
-    list1:
-      'Regulated an active inventory of over 900 medical supplies, many crucial to patient comfort',
-    list2:
-      'Engineered and operated a barcoding system for counting inventory, reducing waste and miscounts',
-    list3:
-      'Converted supply rooms to a kanban system to almost eliminate out of stock time for all supplies',
-    list4:
-      'Introduced XML templates to quicken adding new items into inventory',
-    list5: '',
-    icon: <Agrace height='30px' />,
-  },
+    icon: <EpicLogo height="35px" />
+  }
+  // {
+  //   company: 'Agrace Hospice Care',
+  //   location: 'Madison,WI',
+  //   title: 'Purchasing and Inventory Clerk',
+  //   start: 'November 2012',
+  //   end: 'January 2015',
+  //   list1:
+  //     'Regulated an active inventory of over 900 medical supplies, many crucial to patient comfort',
+  //   list2:
+  //     'Engineered and operated a barcoding system for counting inventory, reducing waste and miscounts',
+  //   list3:
+  //     'Converted supply rooms to a kanban system to almost eliminate out of stock time for all supplies',
+  //   list4:
+  //     'Introduced XML templates to quicken adding new items into inventory',
+  //   list5: '',
+  //   icon: <Agrace height='30px' />,
+  // },
 ];
 
 export default ResumeInformation;

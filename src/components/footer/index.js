@@ -22,9 +22,9 @@ function Footer() {
           <a href='https://www.linkedin.com/in/aaron-haag/'>
             <FaLinkedin style={iconStyle} />
           </a>
-          <a href='https://twitter.com/aaronmhaag'>
+          {/* <a href='https://twitter.com/aaronmhaag'>
             <FaTwitter style={iconStyle} />
-          </a>
+          </a> */}
         </div>
       </div>
     </footer>

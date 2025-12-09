@@ -32,27 +32,27 @@ let ProjectList = [
     DeploymentLink: 'https://sudoku-solver-amhaag.vercel.app/',
     RepoLink: 'https://github.com/AMHaag/sudoku-solver',
   },
-  {
-    ProjectName: 'Weather App',
-    ProjectImage: WeatherThumb,
-    altText: 'Weather App Thumbnail',
-    oneLiner: 'A simple weather app written in pure Javascript',
-    ProjectDescription:
-      'A simple weather app written in vanilla Javascript and Jquery.',
-    TechUsed: [],
-    DeploymentLink: 'https://amhaag.github.io/Weather-App/',
-    RepoLink: 'https://github.com/AMHaag/Weather-App',
-  },
-  {
-    ProjectName: 'Dinos-Are-Birds',
-    ProjectImage: DABThumbnail,
-    altText: 'Dinos are birds Thumbnail',
-    oneLiner: 'A fun take on the chrome dinosaur game',
-    ProjectDescription:
-      'This was a bootcamp project built with Handlebars.js, CSS and MySQL to authenticate users and save high scores. \n\n This is currently in the process of being redeployed as the team member from bootcamp has not maintained the deployment and I am researching alternate hosting options now that Heroku no longer has a free tier. ',
-    TechUsed: [],
-    DeploymentLink: '',
-    RepoLink: 'https://github.com/AMHaag/dinos-are-birds',
-  },
+  // {
+  //   ProjectName: 'Weather App',
+  //   ProjectImage: WeatherThumb,
+  //   altText: 'Weather App Thumbnail',
+  //   oneLiner: 'A simple weather app written in pure Javascript',
+  //   ProjectDescription:
+  //     'A simple weather app written in vanilla Javascript and Jquery.',
+  //   TechUsed: [],
+  //   DeploymentLink: 'https://amhaag.github.io/Weather-App/',
+  //   RepoLink: 'https://github.com/AMHaag/Weather-App',
+  // },
+  // {
+  //   ProjectName: 'Dinos-Are-Birds',
+  //   ProjectImage: DABThumbnail,
+  //   altText: 'Dinos are birds Thumbnail',
+  //   oneLiner: 'A fun take on the chrome dinosaur game',
+  //   ProjectDescription:
+  //     'This was a bootcamp project built with Handlebars.js, CSS and MySQL to authenticate users and save high scores. \n\n This is currently in the process of being redeployed as the team member from bootcamp has not maintained the deployment and I am researching alternate hosting options now that Heroku no longer has a free tier. ',
+  //   TechUsed: [],
+  //   DeploymentLink: '',
+  //   RepoLink: 'https://github.com/AMHaag/dinos-are-birds',
+  // },
 ];
 export default ProjectList;

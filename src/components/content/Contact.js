@@ -53,55 +53,55 @@ function Contact() {
   return (
     <div>
       <Toaster />
-      <div className='boxContainer'>
-        <div className='boxLeft'>
+      <div className="boxContainer">
+        <div className="boxLeft">
           <img
             src={profilePic}
-            id='profilePicture'
-            alt='selfie of Aaron Haag'
-          ></img>
+            id="profilePicture"
+            alt="selfie of Aaron Haag"></img>
         </div>
-        <div className='boxRight'>
-          <div className='headlineBox'>
-            <h1 className='headline'>Contact Me</h1>
-            <p>
+        <div className="boxRight">
+          <div className="headlineBox">
+            <h1 className="headline">Contact Me</h1>
+            <p className="reachMe">
               I can be contacted at{' '}
-              <a className='contact-line'href='maito:aaronm.haag+portfolio@gmail.com' >
+              <a
+                className="contact-line"
+                href="maito:aaronm.haag+portfolio@gmail.com">
                 aaronm.haag+portfolio@gmail.com
               </a>{' '}
               or by using the form below.
             </p>
           </div>
-          <section className='contact-box'>
-            <form id='contact-form' onSubmit={handleSubmit}>
-              <div id='name-input'>
-                <label htmlFor='name'>Name:</label>
+          <section className="contact-box">
+            <form id="contact-form" onSubmit={handleSubmit}>
+              <div id="name-input">
+                <label htmlFor="name">Name:</label>
                 <input
-                  type='text'
-                  name='name'
+                  type="text"
+                  name="name"
                   defaultValue={name}
                   // onChange={handleChange}
                 />
               </div>
-              <div id='email-input'>
-                <label htmlFor='email'>Email:</label>
+              <div id="email-input">
+                <label htmlFor="email">Email:</label>
                 <input
-                  type='email'
-                  name='email'
+                  type="email"
+                  name="email"
                   defaultValue={email}
                   // onChange={handleChange}
                 />
               </div>
               <div>
-                <label htmlFor='message'>Message:</label>
                 <textarea
-                  name='message'
-                  rows='5'
+                  name="message"
+                  rows="5"
                   defaultValue={message}
                   // onChange={handleChange}
                 />
-                <button type='submit'>Submit</button>
               </div>
+                <button type="submit">Submit</button>
             </form>
           </section>
         </div>
